@@ -1,0 +1,20 @@
+{
+  "name": "かんじの かきじゅん",
+  "short_name": "かきじゅん",
+  "description": "赤い一画が何画目かを考える、小学生向けの書き順学習アプリ",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#fff9ec",
+  "theme_color": "#21946d",
+  "icons": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
