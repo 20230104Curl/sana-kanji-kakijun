@@ -1,4 +1,4 @@
-const CACHE = "kanji-kakijun-v14";
+const CACHE = "kanji-kakijun-v15";
 const ROOT = new URL("./", self.registration.scope).toString();
 const assetUrl = (path) => new URL(path, ROOT).toString();
 const KANJI = [
@@ -19,7 +19,7 @@ const ASSETS = [
   ROOT,
   assetUrl("manifest.webmanifest"),
   assetUrl("icon-512.png"),
-  assetUrl("og.png"),
+  assetUrl("og.jpg"),
   ...KANJI.map((code) => assetUrl(`kanji/${code}.svg`))
 ];
 
