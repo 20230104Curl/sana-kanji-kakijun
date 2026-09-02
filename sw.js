@@ -1,4 +1,4 @@
-const CACHE = "kanji-kakijun-v19";
+const CACHE = "kanji-kakijun-v20";
 const ROOT = new URL("./", self.registration.scope).toString();
 const assetUrl = (path) => new URL(path, ROOT).toString();
 const KANJI = [
@@ -54,3 +54,4 @@ self.addEventListener("fetch", (event) => {
     }),
   );
 });
+
