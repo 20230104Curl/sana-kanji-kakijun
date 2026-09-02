@@ -1,4 +1,4 @@
-const CACHE = "kanji-kakijun-v13";
+const CACHE = "kanji-kakijun-v14";
 const ROOT = new URL("./", self.registration.scope).toString();
 const assetUrl = (path) => new URL(path, ROOT).toString();
 const KANJI = [
@@ -9,7 +9,11 @@ const KANJI = [
   "07389", "0738b", "0751f", "07530", "07537", "0753a", "0767d", "0767e",
   "076ee", "077f3", "07a7a", "07acb", "07af9", "07cf8", "08033", "082b1",
   "08349", "0866b", "0898b", "08c9d", "08d64", "08db3", "08eca", "091d1",
-  "096e8", "09752", "097f3"
+  "096e8", "09752", "097f3", "05f15", "0725b", "05143", "06238",
+  "05348", "0516c", "04eca", "06b62", "05c11", "05fc3", "05207", "0592a",
+  "05185", "07236", "05206", "065b9", "06bdb", "053cb", "05916", "05144",
+  "053e4", "05e02", "077e2", "05e83", "053f0", "051ac", "0534a", "06bcd",
+  "05317", "07528"
 ];
 const ASSETS = [
   ROOT,
